@@ -1,0 +1,542 @@
+﻿<?xml version="1.0"?>
+<Cabinet id="Sample" page="1" placedin="Plan" placedinmode="Page" istemplate="No" type="Cabinets" subtype="" code="Sample" basedonlibraryfolder="" basedonlibrary="" basedon="" isreportpicture="Yes" desc="" quantity="1" acceptmachinesteps="No" donatemachinesteps="No" paramname1="" paramvalue1="" paramname2="" paramvalue2="" paramname3="" paramvalue3="" ncontrolsets="0" nexternalfiles="0" align="No" autocut="No" detectcollisions="Yes" isflipped="No" schema="153">
+	<Answers/>
+	<HelpDoc viewangle="0deg" xmldoc="&lt;cabinetinfo&gt;&#xA;  &lt;cabinet&gt;&#xA;    &lt;cabinet_picture value=&quot;`~generated_cabinet_picture`&quot; spaceafter=&quot;1&quot; titlehidden=&quot;1&quot;/&gt;&#xA;    &lt;code value=&quot;`code`&quot; style=&quot;9&quot; titlecolor=&quot;#000000&quot; answercolor=&quot;#000000&quot; titlefontsize=&quot;0&quot;/&gt;&#xA;    &lt;type value=&quot;`type`&quot; style=&quot;9&quot;/&gt;&#xA;    &lt;description value=&quot;`desc`&quot; style=&quot;9&quot;/&gt;&#xA;  &lt;/cabinet&gt;&#xA;  &lt;formula name=&quot;code&quot; value=&quot;F450-1&quot; description=&quot;Cabinet code&quot; standard=&quot;1&quot;/&gt;&#xA;  &lt;formula name=&quot;type&quot; value=&quot;Floor&quot; description=&quot;Cabinet type&quot; standard=&quot;1&quot;/&gt;&#xA;  &lt;formula name=&quot;desc&quot; value=&quot;Floor Cabinet Unit&quot; description=&quot;Cabinet description&quot; standard=&quot;1&quot;/&gt;&#xA;&lt;/cabinetinfo&gt;&#xA;" clipratio="100.0"/>
+	<Questions minimumwidth="0" sidebarwidth="200"/>
+	<Position x="0mm" y="0mm"/>
+	<Label textcolor="rgb(0,0,0)" text="" align="15" angle="0deg" lfheight="-11" lfwidth="0" lforientation="0" lfweight="400" lfitalic="0" lfunderline="0" lfstrikeout="0" lfcharset="1" lfoutprecision="7" lfclipprecision="16" lfquality="0" lfpitchandfamily="0" lffacename="Arial"/>
+	<LabelPosition position="15" showlabel="Yes" hoffset="0mm" voffset="0mm"/>
+	<VSection id="Main">
+		<Nominal width="1000mm" depth="600mm" height="900mm" bottom="0mm" widthstd="1000mm" depthstd="600mm" heightstd="900mm" bottomstd="0mm"/>
+		<Angle angle="0deg"/>
+		<Section id="Carcass" ispresent="Yes" container="" comment="" category="" partno="" isfriendlypart="No" friendlypartname="" joinmethod="0" withinface="Outside" isvisibleplan="Yes" isvisibleelevation="Yes" isvisibleline="Yes" isvisiblesolid="Yes" isvisibleortho="Yes" isflushcorner="Yes" hasangledsides="No" isintrudingsection="No" chamferusingoffsets="No" isshowsection="No" isshowcontent="Yes" isshowfaces="Yes" isshowshape="No" isshowmodel="No" isshowfpagesforitem="No" ispanelled="No" isresizetofit="No" isshrinkonnotpresent="No" isincludeindimensions="Yes" isincludeforsnapping="Yes" isimportidetc="No" modelscalemethod="0" hingeside="0" sectionlibraryfolder="" sectionlibrary="" sectionlibrarycode="" importwithinface="Outside" unlocksforediting="0" rotationfactor="1.0" isrotationclockwise="No" rotationangle="0deg" foldrelative="0" axisface="Top" axisposition1="9" axisx1="0mm" axisy1="0mm" axisz1="0mm" axisposition2="9" axisx2="0mm" axisy2="0mm" axisz2="0mm" preoffsetfactor="1.0" preoffsetx="0mm" preoffsety="0mm" preoffsetz="0mm" postoffsetfactor="1.0" postoffsetx="0mm" postoffsety="0mm" postoffsetz="0mm" ncontrolsets="0" nexternalfiles="0">
+			<RLOffset offsetrl="0mm" isoffsetright="Yes"/>
+			<FBOffset offsetfb="0mm" isoffsetforward="Yes"/>
+			<UDOffset offsetud="0mm" isoffsetup="Yes"/>
+			<WidthSpec methodwidth="0" overridewidth="0mm" toleft="" toright="" gaptoleft="0mm" gaptoright="0mm"/>
+			<DepthSpec methoddepth="0" overridedepth="0mm" behind="" infront="" gapbehind="0mm" gapinfront="0mm"/>
+			<HeightSpec methodheight="0" overrideheight="0mm" below="" above="" gapbelow="0mm" gapabove="0mm"/>
+			<Line color="rgb(0,0,0)" style="0" width="0" haspen="Yes"/>
+			<Fill color="rgb(0,0,0)" style="0" hatch="0" hasbrush="No"/>
+			<Background bkcolor="rgb(255,255,255)" istransparent="Yes"/>
+			<Face id="Back" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Right" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Front" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Left" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Top" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Bottom" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="BackLeft" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="BackRight" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="FrontRight" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="FrontLeft" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Model3D height="0mm" angle="0deg" scaleX="1.0" scaleY="1.0" scaleZ="1.0" wireonly="No">
+				<PictureFolder folder=""/>
+				<PictureName name=""/>
+			</Model3D>
+			<Answers/>
+			<Questions minimumwidth="0" sidebarwidth="200"/>
+		</Section>
+		<Section id="Back" ispresent="Yes" container="Carcass" comment="" category="" partno="" isfriendlypart="No" friendlypartname="" joinmethod="0" withinface="Outside" isvisibleplan="Yes" isvisibleelevation="Yes" isvisibleline="Yes" isvisiblesolid="Yes" isvisibleortho="Yes" isflushcorner="Yes" hasangledsides="No" isintrudingsection="No" chamferusingoffsets="No" isshowsection="Yes" isshowcontent="Yes" isshowfaces="Yes" isshowshape="No" isshowmodel="No" isshowfpagesforitem="No" ispanelled="No" isresizetofit="No" isshrinkonnotpresent="No" isincludeindimensions="Yes" isincludeforsnapping="Yes" isimportidetc="No" modelscalemethod="0" hingeside="0" sectionlibraryfolder="" sectionlibrary="" sectionlibrarycode="" importwithinface="Outside" unlocksforediting="0" rotationfactor="1.0" isrotationclockwise="No" rotationangle="0deg" foldrelative="0" axisface="Top" axisposition1="9" axisx1="0mm" axisy1="0mm" axisz1="0mm" axisposition2="9" axisx2="0mm" axisy2="0mm" axisz2="0mm" preoffsetfactor="1.0" preoffsetx="0mm" preoffsety="0mm" preoffsetz="0mm" postoffsetfactor="1.0" postoffsetx="0mm" postoffsety="0mm" postoffsetz="0mm" ncontrolsets="0" nexternalfiles="0">
+			<RLOffset offsetrl="0mm" isoffsetright="Yes"/>
+			<FBOffset offsetfb="0mm" isoffsetforward="Yes"/>
+			<UDOffset offsetud="0mm" isoffsetup="Yes"/>
+			<WidthSpec methodwidth="0" overridewidth="0mm" toleft="Left" toright="Right" gaptoleft="0mm" gaptoright="0mm"/>
+			<DepthSpec methoddepth="1" overridedepth="16mm" behind="" infront="" gapbehind="0mm" gapinfront="0mm"/>
+			<HeightSpec methodheight="0" overrideheight="0mm" below="Bottom" above="Top" gapbelow="0mm" gapabove="0mm"/>
+			<Line color="rgb(0,0,0)" style="0" width="0" haspen="Yes"/>
+			<Fill color="rgb(0,0,0)" style="0" hatch="0" hasbrush="No"/>
+			<Background bkcolor="rgb(255,255,255)" istransparent="Yes"/>
+			<Face id="Back" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Right" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Front" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Left" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Top" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Bottom" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="BackLeft" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="BackRight" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="FrontRight" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="FrontLeft" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Model3D height="0mm" angle="0deg" scaleX="1.0" scaleY="1.0" scaleZ="1.0" wireonly="No">
+				<PictureFolder folder=""/>
+				<PictureName name=""/>
+			</Model3D>
+			<Answers/>
+			<Questions minimumwidth="0" sidebarwidth="200"/>
+		</Section>
+		<Section id="Bottom" ispresent="Yes" container="Carcass" comment="" category="" partno="" isfriendlypart="No" friendlypartname="" joinmethod="0" withinface="Outside" isvisibleplan="Yes" isvisibleelevation="Yes" isvisibleline="Yes" isvisiblesolid="Yes" isvisibleortho="Yes" isflushcorner="Yes" hasangledsides="No" isintrudingsection="No" chamferusingoffsets="No" isshowsection="Yes" isshowcontent="Yes" isshowfaces="Yes" isshowshape="No" isshowmodel="No" isshowfpagesforitem="No" ispanelled="No" isresizetofit="No" isshrinkonnotpresent="No" isincludeindimensions="Yes" isincludeforsnapping="Yes" isimportidetc="No" modelscalemethod="0" hingeside="0" sectionlibraryfolder="" sectionlibrary="" sectionlibrarycode="" importwithinface="Outside" unlocksforediting="0" rotationfactor="1.0" isrotationclockwise="No" rotationangle="0deg" foldrelative="0" axisface="Top" axisposition1="9" axisx1="0mm" axisy1="0mm" axisz1="0mm" axisposition2="9" axisx2="0mm" axisy2="0mm" axisz2="0mm" preoffsetfactor="1.0" preoffsetx="0mm" preoffsety="0mm" preoffsetz="0mm" postoffsetfactor="1.0" postoffsetx="0mm" postoffsety="0mm" postoffsetz="0mm" ncontrolsets="0" nexternalfiles="0">
+			<RLOffset offsetrl="0mm" isoffsetright="Yes"/>
+			<FBOffset offsetfb="0mm" isoffsetforward="Yes"/>
+			<UDOffset offsetud="0mm" isoffsetup="Yes"/>
+			<WidthSpec methodwidth="0" overridewidth="0mm" toleft="" toright="" gaptoleft="0mm" gaptoright="0mm"/>
+			<DepthSpec methoddepth="0" overridedepth="0mm" behind="" infront="" gapbehind="0mm" gapinfront="0mm"/>
+			<HeightSpec methodheight="1" overrideheight="16mm" below="" above="" gapbelow="0mm" gapabove="0mm"/>
+			<Line color="rgb(0,0,0)" style="0" width="0" haspen="Yes"/>
+			<Fill color="rgb(0,0,0)" style="0" hatch="0" hasbrush="No"/>
+			<Background bkcolor="rgb(255,255,255)" istransparent="Yes"/>
+			<Face id="Back" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Right" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Front" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Left" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Top" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Bottom" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="BackLeft" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="BackRight" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="FrontRight" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="FrontLeft" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Model3D height="0mm" angle="0deg" scaleX="1.0" scaleY="1.0" scaleZ="1.0" wireonly="No">
+				<PictureFolder folder=""/>
+				<PictureName name=""/>
+			</Model3D>
+			<Answers/>
+			<Questions minimumwidth="0" sidebarwidth="200"/>
+		</Section>
+		<Section id="Left" ispresent="Yes" container="Carcass" comment="" category="" partno="" isfriendlypart="No" friendlypartname="" joinmethod="0" withinface="Outside" isvisibleplan="Yes" isvisibleelevation="Yes" isvisibleline="Yes" isvisiblesolid="Yes" isvisibleortho="Yes" isflushcorner="Yes" hasangledsides="No" isintrudingsection="No" chamferusingoffsets="No" isshowsection="Yes" isshowcontent="Yes" isshowfaces="Yes" isshowshape="No" isshowmodel="No" isshowfpagesforitem="No" ispanelled="No" isresizetofit="No" isshrinkonnotpresent="No" isincludeindimensions="Yes" isincludeforsnapping="Yes" isimportidetc="No" modelscalemethod="0" hingeside="0" sectionlibraryfolder="" sectionlibrary="" sectionlibrarycode="" importwithinface="Outside" unlocksforediting="0" rotationfactor="1.0" isrotationclockwise="No" rotationangle="0deg" foldrelative="0" axisface="Top" axisposition1="9" axisx1="0mm" axisy1="0mm" axisz1="0mm" axisposition2="9" axisx2="0mm" axisy2="0mm" axisz2="0mm" preoffsetfactor="1.0" preoffsetx="0mm" preoffsety="0mm" preoffsetz="0mm" postoffsetfactor="1.0" postoffsetx="0mm" postoffsety="0mm" postoffsetz="0mm" ncontrolsets="0" nexternalfiles="0">
+			<RLOffset offsetrl="0mm" isoffsetright="Yes"/>
+			<FBOffset offsetfb="0mm" isoffsetforward="Yes"/>
+			<UDOffset offsetud="0mm" isoffsetup="Yes"/>
+			<WidthSpec methodwidth="1" overridewidth="16mm" toleft="" toright="" gaptoleft="0mm" gaptoright="0mm"/>
+			<DepthSpec methoddepth="0" overridedepth="0mm" behind="" infront="" gapbehind="0mm" gapinfront="0mm"/>
+			<HeightSpec methodheight="0" overrideheight="0mm" below="Bottom" above="Top" gapbelow="0mm" gapabove="0mm"/>
+			<Line color="rgb(0,0,0)" style="0" width="0" haspen="Yes"/>
+			<Fill color="rgb(0,0,0)" style="0" hatch="0" hasbrush="No"/>
+			<Background bkcolor="rgb(255,255,255)" istransparent="Yes"/>
+			<Face id="Back" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Right" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Front" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Left" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Top" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Bottom" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="BackLeft" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="BackRight" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="FrontRight" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="FrontLeft" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Model3D height="0mm" angle="0deg" scaleX="1.0" scaleY="1.0" scaleZ="1.0" wireonly="No">
+				<PictureFolder folder=""/>
+				<PictureName name=""/>
+			</Model3D>
+			<Answers/>
+			<Questions minimumwidth="0" sidebarwidth="200"/>
+		</Section>
+		<Section id="Right" ispresent="Yes" container="Carcass" comment="" category="" partno="" isfriendlypart="No" friendlypartname="" joinmethod="0" withinface="Outside" isvisibleplan="Yes" isvisibleelevation="Yes" isvisibleline="Yes" isvisiblesolid="Yes" isvisibleortho="Yes" isflushcorner="Yes" hasangledsides="No" isintrudingsection="No" chamferusingoffsets="No" isshowsection="Yes" isshowcontent="Yes" isshowfaces="Yes" isshowshape="No" isshowmodel="No" isshowfpagesforitem="No" ispanelled="No" isresizetofit="No" isshrinkonnotpresent="No" isincludeindimensions="Yes" isincludeforsnapping="Yes" isimportidetc="No" modelscalemethod="0" hingeside="0" sectionlibraryfolder="" sectionlibrary="" sectionlibrarycode="" importwithinface="Outside" unlocksforediting="0" rotationfactor="1.0" isrotationclockwise="No" rotationangle="0deg" foldrelative="0" axisface="Top" axisposition1="9" axisx1="0mm" axisy1="0mm" axisz1="0mm" axisposition2="9" axisx2="0mm" axisy2="0mm" axisz2="0mm" preoffsetfactor="1.0" preoffsetx="0mm" preoffsety="0mm" preoffsetz="0mm" postoffsetfactor="1.0" postoffsetx="0mm" postoffsety="0mm" postoffsetz="0mm" ncontrolsets="0" nexternalfiles="0">
+			<RLOffset offsetrl="0mm" isoffsetright="Yes"/>
+			<FBOffset offsetfb="0mm" isoffsetforward="Yes"/>
+			<UDOffset offsetud="0mm" isoffsetup="Yes"/>
+			<WidthSpec methodwidth="-1" overridewidth="16mm" toleft="" toright="" gaptoleft="0mm" gaptoright="0mm"/>
+			<DepthSpec methoddepth="0" overridedepth="0mm" behind="" infront="" gapbehind="0mm" gapinfront="0mm"/>
+			<HeightSpec methodheight="0" overrideheight="0mm" below="Bottom" above="Top" gapbelow="0mm" gapabove="0mm"/>
+			<Line color="rgb(0,0,0)" style="0" width="0" haspen="Yes"/>
+			<Fill color="rgb(0,0,0)" style="0" hatch="0" hasbrush="No"/>
+			<Background bkcolor="rgb(255,255,255)" istransparent="Yes"/>
+			<Face id="Back" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Right" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Front" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Left" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Top" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Bottom" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="BackLeft" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="BackRight" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="FrontRight" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="FrontLeft" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Model3D height="0mm" angle="0deg" scaleX="1.0" scaleY="1.0" scaleZ="1.0" wireonly="No">
+				<PictureFolder folder=""/>
+				<PictureName name=""/>
+			</Model3D>
+			<Answers/>
+			<Questions minimumwidth="0" sidebarwidth="200"/>
+		</Section>
+		<Section id="Top" ispresent="Yes" container="Carcass" comment="" category="" partno="" isfriendlypart="No" friendlypartname="" joinmethod="0" withinface="Outside" isvisibleplan="Yes" isvisibleelevation="Yes" isvisibleline="Yes" isvisiblesolid="Yes" isvisibleortho="Yes" isflushcorner="Yes" hasangledsides="No" isintrudingsection="No" chamferusingoffsets="No" isshowsection="Yes" isshowcontent="Yes" isshowfaces="Yes" isshowshape="No" isshowmodel="No" isshowfpagesforitem="No" ispanelled="No" isresizetofit="No" isshrinkonnotpresent="No" isincludeindimensions="Yes" isincludeforsnapping="Yes" isimportidetc="No" modelscalemethod="0" hingeside="0" sectionlibraryfolder="" sectionlibrary="" sectionlibrarycode="" importwithinface="Outside" unlocksforediting="0" rotationfactor="1.0" isrotationclockwise="No" rotationangle="0deg" foldrelative="0" axisface="Top" axisposition1="9" axisx1="0mm" axisy1="0mm" axisz1="0mm" axisposition2="9" axisx2="0mm" axisy2="0mm" axisz2="0mm" preoffsetfactor="1.0" preoffsetx="0mm" preoffsety="0mm" preoffsetz="0mm" postoffsetfactor="1.0" postoffsetx="0mm" postoffsety="0mm" postoffsetz="0mm" ncontrolsets="0" nexternalfiles="0">
+			<RLOffset offsetrl="0mm" isoffsetright="Yes"/>
+			<FBOffset offsetfb="0mm" isoffsetforward="Yes"/>
+			<UDOffset offsetud="0mm" isoffsetup="Yes"/>
+			<WidthSpec methodwidth="0" overridewidth="0mm" toleft="" toright="" gaptoleft="0mm" gaptoright="0mm"/>
+			<DepthSpec methoddepth="0" overridedepth="0mm" behind="" infront="" gapbehind="0mm" gapinfront="0mm"/>
+			<HeightSpec methodheight="-1" overrideheight="16mm" below="" above="" gapbelow="0mm" gapabove="0mm"/>
+			<Line color="rgb(0,0,0)" style="0" width="0" haspen="Yes"/>
+			<Fill color="rgb(0,0,0)" style="0" hatch="0" hasbrush="No"/>
+			<Background bkcolor="rgb(255,255,255)" istransparent="Yes"/>
+			<Face id="Back" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Right" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Front" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Left" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Top" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="Bottom" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="BackLeft" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="BackRight" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="FrontRight" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Face id="FrontLeft" issealed="Yes" isshowface="Yes" isshowcontent="Yes" isshowoutline="Yes" overhang="0mm" inherittextures="Yes" chamfer1="0mm" chamfer2="0mm" radius="0mm" thickness="0mm">
+				<Color color="rgb(240,240,240)"/>
+				<Stain isstained="No"/>
+				<Shine shininess="0.0" shineintensity="100.0" reflects="No" reflectcoefft="0.0"/>
+				<Transparent istransparent="No"/>
+				<TransparencyType candarken="Yes" canlighten="No"/>
+			</Face>
+			<Model3D height="0mm" angle="0deg" scaleX="1.0" scaleY="1.0" scaleZ="1.0" wireonly="No">
+				<PictureFolder folder=""/>
+				<PictureName name=""/>
+			</Model3D>
+			<Answers/>
+			<Questions minimumwidth="0" sidebarwidth="200"/>
+		</Section>
+	</VSection>
+	<LHSInsert lhsinsert="Yes"/>
+	<BackFixed isbackfixed="Yes"/>
+	<IsSpecial isspecial="No"/>
+	<IsDecorative isdecorative="No"/>
+	<CanBeFlipped canbeflipped="No"/>
+	<Pricing isfixedprice="No" iscomponentprice="Yes" fixedcostprice="$0.00" fixedsellprice="$0.00"/>
+	<DepthAndAngleForEnds lengthprev="0mm" angleprev="0deg" lengthnext="0mm" anglenext="0deg"/>
+</Cabinet>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0"?>
+<Drawing schema="153">
+	<DrawingProps ncontrolsets="0" nexternalfiles="0">
+		<SummaryInfo appname="CabMasterPro111" author="Development" charcount="1" comments="" create_dtm="" keywords="" lastauthor="Development" lastprinted="" lastsave_dtm="&quot;Monday, November 15, 2021 10:33:21&quot;" pagecount="1" revnumber="2" security="" subject="Library" template="" thumbnail="" title="TrainingLibrary" wordcount=""/>
+		<Answers/>
+		<Questions minimumwidth="0" sidebarwidth="200"/>
+	</DrawingProps>
+	<Cabinet id="Sample" code="Sample" exportfile="TrainingLibrary_Sample.xml"/>
+</Drawing>
