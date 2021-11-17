@@ -100,7 +100,7 @@
 			<RLOffset offsetrl="0mm" isoffsetright="Yes"/>
 			<FBOffset offsetfb="0mm" isoffsetforward="Yes"/>
 			<UDOffset offsetud="0mm" isoffsetup="Yes"/>
-			<WidthSpec methodwidth="0" overridewidth="0mm" toleft="Left" toright="Right" gaptoleft="0mm" gaptoright="0mm"/>
+			<WidthSpec methodwidth="0" overridewidth="0mm" toleft="Left" toright="Right" gaptoleft-formula="100" gaptoright="0mm"/>
 			<DepthSpec methoddepth="1" overridedepth="16mm" behind="" infront="" gapbehind="0mm" gapinfront="0mm"/>
 			<HeightSpec methodheight="0" overrideheight="0mm" below="Bottom" above="Top" gapbelow="0mm" gapabove="0mm"/>
 			<Line color="rgb(0,0,0)" style="0" width="0" haspen="Yes"/>
