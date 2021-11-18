@@ -77,7 +77,7 @@
       <Attributes>
         <Attribute key="community_showPrivate" valuetype="boolean">True</Attribute>
         <Attribute key="community_showPublic" valuetype="boolean">True</Attribute>
-        <Attribute key="scrollPosition" valuetype="integer">352</Attribute>
+        <Attribute key="scrollPosition" valuetype="integer">0</Attribute>
         <Attribute key="i-toggle-section-collapsed-undefined" valuetype="string">true</Attribute>
       </Attributes>
     </TopicEditorState>
