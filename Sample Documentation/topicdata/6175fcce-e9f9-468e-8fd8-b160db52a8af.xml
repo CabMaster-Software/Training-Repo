@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Topic Id="6175fcce-e9f9-468e-8fd8-b160db52a8af" Status="Complete" CreatedOn="2020-12-24T03:45:45.6398695Z" ModifiedOn="2021-11-18T00:21:20.3155585Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Introduction" BuildFlags="">
+<Topic Id="6175fcce-e9f9-468e-8fd8-b160db52a8af" Status="Complete" CreatedOn="2020-12-24T03:45:45.6398695Z" ModifiedOn="2021-11-18T00:27:13.8949583Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Introduction" BuildFlags="">
   <Title />
   <ContentsTitle m="2021-01-05T23:25:34.9580132Z">Introduction</ContentsTitle>
   <Notes></Notes>
   <TopicSections>
     <TopicSection Name="BodyText">
-      <Content m="2021-11-18T00:21:20.3125595Z">&lt;H1&gt;Overview&lt;/H1&gt;
-&lt;P&gt;Daniel was here&lt;/P&gt;
+      <Content m="2021-11-18T00:27:13.8949583Z">&lt;H1&gt;Overview&lt;/H1&gt;
+&lt;P&gt;Charmaine&amp;nbsp;was here&lt;/P&gt;
 &lt;P&gt;The DXF layer names required by some nesting/machining systems (eg Biesseworks®) are more than just a name.&amp;nbsp; They are a&amp;nbsp;string that&amp;nbsp;defines&amp;nbsp;the required&amp;nbsp;machining 'strategy', containing information such as the tool to use, whether to route or drill, the depth&amp;nbsp;etc.&lt;/P&gt;
 &lt;P&gt;To date CabMaster has used formulas in the 'Layers' table to define these strategy strings.&amp;nbsp; However, not all layer names are mapped via the&amp;nbsp;Layers table.&amp;nbsp; For example, some come from hardware tables, custom machining tables or are keyed in by the user through the application's&amp;nbsp;machining editor.&amp;nbsp; To overcome this,&amp;nbsp;the translation into the more complex strategies for all layers&amp;nbsp;now occurs as the application exports the machining&amp;nbsp;DXFs.&lt;/P&gt;
 &lt;H1&gt;Process&lt;/H1&gt;
