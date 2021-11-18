@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="a0a73005-9ffd-41d7-a23e-1d88d6de3dc4" Status="Complete" CreatedOn="2021-01-08T02:19:29.9839635Z" ModifiedOn="2021-05-24T05:21:30.226428Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Managing the Override Table" BuildFlags="">
+  <Title />
+  <ContentsTitle m="2021-01-08T08:18:31.884396Z">Override Management</ContentsTitle>
+  <Notes></Notes>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2021-05-24T05:21:30.226428Z">&lt;H1&gt;Managing Overrides&lt;/H1&gt;
+&lt;P&gt;The Override Table management page has two modes ...&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Standard&lt;/STRONG&gt; : View the Override Settings only &lt;/LI&gt;&lt;/UL&gt;
+&lt;P align=center&gt;&lt;IMG border=0 alt="" src="images/LayerOverride-Std.png" useMap=#{54142798-AAD6-40E6-8EE0-78FC79DD8D5E}&gt;&lt;MAP name={54142798-AAD6-40E6-8EE0-78FC79DD8D5E}&gt; &lt;AREA href="1dc7220f-17fb-4bfc-a3ab-ec54b72e5cdc" shape=rect alt="Managing the Strategy Table" coords=44,52,134,67 style="auto-update-caption: true"&gt;&lt;AREA href="f8b6a287-3157-4a20-8090-5030f21ecef3" shape=rect alt="Managing the Layers Table" coords=43,90,132,102 style="auto-update-caption: true"&gt;&lt;/MAP&gt;&lt;/P&gt;
+&lt;DIV align=left&gt;&lt;/DIV&gt;
+&lt;DIV align=left&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Advanced&lt;/STRONG&gt; : View and Modify&amp;nbsp;the Override Settings&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;&lt;/DIV&gt;
+&lt;P align=center&gt;&lt;MAP name={B8011407-A469-4C25-83C9-452BFEA106DE}&gt;&lt;AREA href="1dc7220f-17fb-4bfc-a3ab-ec54b72e5cdc" shape=rect alt="Managing the Strategy Table" coords=41,46,105,54 style="auto-update-caption: true"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;AREA href="f8b6a287-3157-4a20-8090-5030f21ecef3" shape=rect alt="Managing the Layers Table" coords=42,80,94,84 style="auto-update-caption: true"&gt;&amp;nbsp;&lt;IMG style="HEIGHT: 785px; WIDTH: 750px" border=0 alt="" src="images/LayerOverride-Adv.png" width=842 height=852 useMap=#{A9CEA683-01A1-4F2F-B133-9DDDAA09963A}&gt;&amp;nbsp;&amp;nbsp; &lt;MAP name={A9CEA683-01A1-4F2F-B133-9DDDAA09963A}&gt;&lt;AREA href="1dc7220f-17fb-4bfc-a3ab-ec54b72e5cdc" shape=rect alt="Managing Strategy Tables" coords=34,52,113,67 style="auto-update-caption: true"&gt;&lt;AREA href="20d8252e-0c2f-4b7d-b4f7-55798c13913a" shape=rect alt="Layers Table" coords=44,84,104,98 style="auto-update-caption: true"&gt;&lt;/MAP&gt;&lt;/MAP&gt;&lt;/P&gt;
+&lt;DIV align=left&gt;&lt;/DIV&gt;
+&lt;H3&gt;Updating Override Settings&lt;/H3&gt;
+&lt;H4&gt;Default Warning&lt;/H4&gt;
+&lt;P&gt;When a layer name does not have an Override mapping to a strategy, the Default strategy is used as the machining is exported.&amp;nbsp; However, this may not give the desired machining result.&amp;nbsp; &lt;/P&gt;
+&lt;P&gt;The "&lt;EM&gt;Show Warning message when 'Default' used&lt;/EM&gt;" option determines whether CabMaster warns of any use of the Default.&lt;/P&gt;
+&lt;P&gt;Note : The warning will not stop the machining export occurring.&amp;nbsp; It merely warns the user, so that they can rectify any issues and&amp;nbsp;re-export.&lt;/P&gt;
+&lt;H4&gt;Modifying&lt;/H4&gt;
+&lt;P&gt;Available in &lt;STRONG&gt;Advance&lt;/STRONG&gt; mode only:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pick the relevant Override&amp;nbsp;Layer name from the dropdown (populated from the&amp;nbsp;&lt;A href="20d8252e-0c2f-4b7d-b4f7-55798c13913a"&gt;Layers Table&lt;/A&gt;) 
+&lt;LI&gt;Pick&amp;nbsp;a&amp;nbsp;Strategy from the dropdown (populated from&amp;nbsp;the current&amp;nbsp;&lt;A href="20589938-846a-4ead-9910-9950a25bae70"&gt;Strategy Table&lt;/A&gt;) 
+&lt;LI&gt;Press on the 'Save' button 
+&lt;LI&gt;
+&lt;DIV align=left&gt;Confirm the modifications are to be saved&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/DIV&gt;&lt;/LI&gt;&lt;/OL&gt;
+&lt;P align=left&gt;Note : The modification can be reset by pressing the 'Reload' before saving.&lt;/P&gt;
+&lt;H4&gt;Adding&lt;/H4&gt;
+&lt;P style="MARGIN-RIGHT: 0px" dir=ltr&gt;Available in &lt;STRONG&gt;Advance&lt;/STRONG&gt; mode only:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;Key in a Override Layer name that does not already exist 
+&lt;LI&gt;Confirm the Override Layer is to be added 
+&lt;LI&gt;If necessary select the linked Strategy (populated from&amp;nbsp;the current&amp;nbsp;&lt;A href="20589938-846a-4ead-9910-9950a25bae70"&gt;&lt;U&gt;&lt;FONT color=#0066cc&gt;Strategy Table&lt;/FONT&gt;&lt;/U&gt;&lt;/A&gt;) 
+&lt;LI&gt;
+&lt;DIV align=left&gt;Press on the 'Save' button &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV align=left&gt;Confirm the modifications are to be saved &lt;/DIV&gt;&lt;/LI&gt;&lt;/OL&gt;
+&lt;H3 align=left&gt;Removing&lt;/H3&gt;
+&lt;P&gt;Available in &lt;STRONG&gt;Advance&lt;/STRONG&gt; mode only:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pick&amp;nbsp;the Override Layer to remove from the dropdown 
+&lt;LI&gt;Press the 'Remove' button to the right of the chosen Override Layer 
+&lt;LI&gt;Confirm the removal &lt;/LI&gt;&lt;/OL&gt;
+&lt;P align=left&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink Id="293aabc5-a420-468b-94e0-13c46022508b" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="d419fdd5-1400-47e3-9466-7eb8f0819dc2" BuildFlags="">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink Id="7578c803-4b88-4484-b464-54d354fe3894" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="aba9fa78-6514-4a7c-b9ae-ff3cc4369897" BuildFlags="">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

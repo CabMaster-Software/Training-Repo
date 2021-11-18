@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="aba9fa78-6514-4a7c-b9ae-ff3cc4369897" Status="Complete" CreatedOn="2021-05-19T22:52:05.1456168Z" ModifiedOn="2021-05-24T06:16:21.8597546Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Examples, Hints And Tips" BuildFlags="">
+  <Title m="2021-05-19T22:52:20.2341873Z">Examples, Hints And Tips</Title>
+  <ContentsTitle m="2021-05-20T02:03:42.8101909Z">Examples, Hints And Tips</ContentsTitle>
+  <Notes></Notes>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2021-05-24T06:16:21.8597546Z">&lt;H2&gt;Layer Names&lt;/H2&gt;
+&lt;H3&gt;Why Are There Quotes Around Most Layer Names?&lt;/H3&gt;
+&lt;P&gt;The quotes around the Names stored in the Layers Table are required to cater for the use of Formulas (see Below) in the name. In CabMaster terms this makes each entry a formula even if it is just a&amp;nbsp;fixed name.&amp;nbsp;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H3&gt;Creating Multiple Strategies From&amp;nbsp;A Single Layer&lt;/H3&gt;
+&lt;P&gt;If a single layer from CabMaster needs to be translated into multiple tool strategies (for example, a 2 tool strategy to route out a part), then enter the layer names into the&amp;nbsp;Layers Table delimited by the &lt;EM&gt;pipe&lt;/EM&gt; character&amp;nbsp;( | ).&lt;/P&gt;
+&lt;P&gt;For example, "Border1|Border2".&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H3&gt;Using A Formula to Control A Layer Name&lt;/H3&gt;
+&lt;P&gt;If a Layer Name needs to vary according to a property of the material being machined&amp;nbsp;(for example, its&amp;nbsp;Thickness or Raw Material), then the formula can be entered in place of&amp;nbsp;the Layer Name.&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;A formula does not require quotes around it, but&amp;nbsp;fixed textural values within the formula do.&lt;/P&gt;
+&lt;P&gt;Example 1 :&amp;nbsp;&lt;/P&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;P&gt;&lt;EM&gt;"Border-"&amp;amp;Material&lt;/EM&gt;&lt;/P&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;P&gt;will produce the Raw Material (from the&amp;nbsp;part's material definition) appended to the text "Border-", e.g. &amp;nbsp;&lt;/P&gt;&lt;/BLOCKQUOTE&gt;
+&lt;P align=left&gt;&lt;EM&gt;Border-HMR&lt;/EM&gt;&lt;/P&gt;&lt;/BLOCKQUOTE&gt;
+&lt;P&gt;Example 2 :&lt;/P&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;P&gt;&lt;EM&gt;"Border1|Border2-"&amp;amp;Dim3&lt;/EM&gt;&lt;/P&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;P&gt;will produce two layers.&amp;nbsp; The first, simply&lt;/P&gt;&lt;/BLOCKQUOTE&gt;
+&lt;P&gt;&lt;EM&gt;Border&lt;/EM&gt;&lt;/P&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;P&gt;the second, being the Thickness&amp;nbsp;(from the&amp;nbsp;part's material definition) appended to the text "Border2-", e.g.&lt;/P&gt;&lt;/BLOCKQUOTE&gt;
+&lt;P&gt;&lt;EM&gt;Border2-16mm&lt;/EM&gt;&lt;/P&gt;&lt;/BLOCKQUOTE&gt;
+&lt;P&gt;An understanding of the CabMaster formula language and internal property names is required to be fully proficient in writing a formula.&amp;nbsp; However, the structure of simple formulas is quite straight forward.&amp;nbsp; Please call CabMaster Support for assistance.&lt;/P&gt;
+&lt;P&gt;Note : There needs to be an associated entry in the 'Override' table to map each possible Layer name to a Strategy.&amp;nbsp;&amp;nbsp;If one does not exist the 'Default' entry in the Override table is used.&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Strategies&lt;/H2&gt;
+&lt;H3&gt;What is a Strategy Evaluation Formula?&lt;/H3&gt;
+&lt;P&gt;Strategy evaluation formulas allow the defined Strategy Properties and other information to be combined into a useable Strategy.&amp;nbsp;&amp;nbsp;They are formulas written in the CabMaster formula language and can be reasonably complex.&amp;nbsp; However, the default examples provided can be used as templates to create new ones.&lt;/P&gt;
+&lt;P&gt;Example formula (colour coded for ease of reference)&amp;nbsp;:&lt;/P&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;P style="MARGIN-RIGHT: 0px" dir=ltr&gt;&lt;EM&gt;&lt;SPAN style="COLOR: rgb(0,112,192)"&gt;let Me&lt;SPAN style="COLOR: rgb(0,112,192)"&gt;:="&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,112,192)"&gt;RouteMale1";&lt;/SPAN&gt;&lt;/EM&gt;&lt;/P&gt;
+&lt;P&gt;&lt;EM&gt;&lt;SPAN style="COLOR: rgb(0,176,80)"&gt;let&lt;/SPAN&gt; &lt;SPAN style="COLOR: rgb(0,176,80)"&gt;MyInfo&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,176,80)"&gt;:=&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,176,80)"&gt;MachToolLayerTableStrategyInfo&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,176,80)"&gt;(&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,176,80)"&gt;Me&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,176,80)"&gt;);&lt;/SPAN&gt;&lt;/EM&gt; &lt;SPAN style="COLOR: rgb(0,176,80)"&gt;&lt;BR&gt;&lt;EM&gt;let MyInfoIndex:=&lt;/EM&gt;&lt;/SPAN&gt;&lt;EM&gt;&lt;SPAN style="COLOR: rgb(0,176,80)"&gt;MachToolLayerTableStrategyIndex(&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,176,80)"&gt;Me&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,176,80)"&gt;);&lt;/SPAN&gt;&lt;/EM&gt;&lt;/P&gt;
+&lt;P&gt;&lt;EM&gt;&lt;SPAN style="COLOR: rgb(112,48,160)"&gt;let&lt;/SPAN&gt; &lt;SPAN style="COLOR: rgb(112,48,160)"&gt;MyDepth:=TextNoUnit(MRound(Depth.x*100));&lt;/SPAN&gt;&lt;/EM&gt;&lt;/P&gt;
+&lt;P&gt;&lt;EM&gt;let MyOperation:=MyInfo(IndexOf("Operation", MyInfoIndex));&lt;/EM&gt;&lt;/P&gt;
+&lt;P&gt;&lt;EM&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;"TCHW0B"&amp;amp; MyOperation &amp;amp;"D"&amp;amp;&lt;/SPAN&gt; &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;MyDepth&lt;/SPAN&gt;&lt;/EM&gt;&lt;/P&gt;&lt;/BLOCKQUOTE&gt;
+&lt;P&gt;This formula can be broken down into 5 different elements:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(0,112,192)"&gt;Defining 'Me'&lt;/SPAN&gt;&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;P&gt;&lt;SPAN style="COLOR: rgb(0,112,192)"&gt;Each formula should start with the setting of the local&amp;nbsp;variable&amp;nbsp;'M&lt;SPAN style="COLOR: rgb(0,112,192)"&gt;e' to&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,112,192)"&gt;&amp;nbsp;the exact name of the saved&lt;/SPAN&gt;&amp;nbsp;&lt;SPAN style="COLOR: rgb(0,112,192)"&gt;Strategy&lt;/SPAN&gt; &lt;SPAN style="COLOR: rgb(0,112,192)"&gt;itself.&lt;/SPAN&gt;&lt;/P&gt;&lt;/BLOCKQUOTE&gt;&lt;/BLOCKQUOTE&gt;
+&lt;UL&gt;
+&lt;LI style="COLOR: rgb(0,176,80)"&gt;Defining 'MyInfo'&amp;nbsp;and 'MyInfoIndex' &lt;/LI&gt;&lt;/UL&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;P style="COLOR: rgb(0,176,80)" dir=ltr&gt;These lines define two fixed&amp;nbsp;local variables, needed if any of the Strategy's saved Property values&amp;nbsp;are to be referenced. Their definition&amp;nbsp;will always be the same and&amp;nbsp;so do not need to be edited.&lt;/P&gt;&lt;/BLOCKQUOTE&gt;&lt;/BLOCKQUOTE&gt;
+&lt;UL&gt;
+&lt;LI style="COLOR: rgb(112,48,160)"&gt;Defining 'Special' variables &lt;/LI&gt;&lt;/UL&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;P style="COLOR: rgb(112,48,160); MARGIN-RIGHT: 0px" dir=ltr&gt;These lines define any special local values (in this example&amp;nbsp;the plunge Depth is multiplied by 100 and rounded to the nearest whole number and&amp;nbsp;then the&amp;nbsp;units [i.e. 'mm'] removed.&amp;nbsp;&amp;nbsp;In this case, with&amp;nbsp;a&amp;nbsp;depth of 16.004mm, MyDepth would evaluate to&amp;nbsp;'1600').&lt;/P&gt;&lt;/BLOCKQUOTE&gt;&lt;/BLOCKQUOTE&gt;
+&lt;UL&gt;
+&lt;LI&gt;Defining 'Property' variables &lt;/LI&gt;&lt;/UL&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;P style="COLOR: rgb(0,0,0)" dir=ltr&gt;These lines extract the Strategy's&amp;nbsp;saved Property values. Each line is&amp;nbsp;always be of the same format with the text "Operation" (shown above) replaced with the required property name.&lt;/P&gt;&lt;/BLOCKQUOTE&gt;&lt;/BLOCKQUOTE&gt;
+&lt;UL&gt;
+&lt;LI style="COLOR: rgb(255,0,0)"&gt;Output&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;P style="COLOR: rgb(255,0,0)"&gt;This is the part of the formula that defines how the resulting strategy will read. It can be a mixture of "Text", Special variables, Standard variables&amp;nbsp;and other formulas.&amp;nbsp; Concatenate the different elements together by using the '&amp;amp;'&amp;nbsp;character.&lt;/P&gt;&lt;/BLOCKQUOTE&gt;&lt;/BLOCKQUOTE&gt;
+&lt;P&gt;e.g. using the sample formula above:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;With 
+&lt;UL&gt;
+&lt;LI&gt;the property "Operation"&amp;nbsp;defined with a value of '8' &lt;/LI&gt;&lt;/UL&gt;
+&lt;UL&gt;
+&lt;LI&gt;a CabMaster machining&amp;nbsp;"Depth"&amp;nbsp;of '16.004mm' &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Then the resulting&amp;nbsp;strategy would be 
+&lt;UL&gt;
+&lt;LI&gt;&amp;nbsp;&lt;FONT color=red&gt;TCHW0B8D1600&lt;/FONT&gt; &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;P style="COLOR: rgb(0,0,0)"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style="COLOR: rgb(0,0,0)"&gt;An understanding of the CabMaster formula language and internal property names is required to be fully proficient in writing a formula.&amp;nbsp; However, the structure of simple formulas is quite straight forward.&amp;nbsp; Please call CabMaster Support for assistance.&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Useful CabMaster Properties&lt;/H2&gt;
+&lt;P&gt;The following are useful property names that can be included in formulas&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Category&lt;/EM&gt; = The current part's usage (eg Carcass, Door, Panel etc) 
+&lt;LI&gt;&lt;EM&gt;Material&lt;/EM&gt; =&amp;nbsp;The current part's Raw Material name (as defined in the Materials table) 
+&lt;LI&gt;&lt;EM&gt;Dim1&lt;/EM&gt; = The current part's height (or depth if horizontal) - including edging 
+&lt;LI&gt;&lt;EM&gt;DimCut1 =&lt;/EM&gt; The current part's height (or depth if horizontal) - not including edging 
+&lt;LI&gt;&lt;EM&gt;Dim2&lt;/EM&gt; = The current part's width - including edging 
+&lt;LI&gt;&lt;EM&gt;DimCut2 =&lt;/EM&gt; The current part's width - not including edging 
+&lt;LI&gt;&lt;EM&gt;Dim3&lt;/EM&gt; = The current part's Thickness 
+&lt;LI&gt;&lt;EM&gt;Depth =&lt;/EM&gt; Depth of the defined&amp;nbsp;machining &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks />
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1ca76485-a2a3-49b0-a70f-de20d5a23bd1" Status="Complete" CreatedOn="2020-12-24T04:46:04.4874123Z" ModifiedOn="2021-05-19T22:52:50.0624663Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Managing the Tables from CabMaster" BuildFlags="">
+  <Title />
+  <ContentsTitle m="2021-01-08T08:19:14.5842659Z">Table Management</ContentsTitle>
+  <Notes></Notes>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2021-05-19T03:51:57.3149917Z">&lt;H1&gt;Managing&amp;nbsp;Tables&lt;/H1&gt;
+&lt;P&gt;The&amp;nbsp;&lt;A href="20d8252e-0c2f-4b7d-b4f7-55798c13913a"&gt;Layers&lt;/A&gt;,&amp;nbsp;&lt;A href="d419fdd5-1400-47e3-9466-7eb8f0819dc2"&gt;Layer Override&lt;/A&gt; and&amp;nbsp;&lt;A href="20589938-846a-4ead-9910-9950a25bae70"&gt;Layer Strategy&lt;/A&gt; tables can all be managed from within CabMaster using the "Layer" button on the Mach.General | Tool page of the Library/Catalog/Drawing properties.&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P align=center&gt;&lt;IMG style="HEIGHT: 496px; WIDTH: 868px" border=0 alt="" src="images/Layers Edit.png" width=1073 height=626&gt;&lt;/P&gt;
+&lt;P align=left&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P align=left&gt;Pressing&amp;nbsp;the 'Layers' button will launch either ...&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;The Strategy, Override and&amp;nbsp;Layer&amp;nbsp;Management page &lt;/LI&gt;&lt;/UL&gt;
+&lt;P align=center&gt;&lt;IMG border=0 alt="" src="images/LayerManagement.png" useMap=#{0F3909F6-2D4D-436F-86FE-77ADD4AFBEBD}&gt;&lt;MAP name={0F3909F6-2D4D-436F-86FE-77ADD4AFBEBD}&gt; &lt;AREA href="1dc7220f-17fb-4bfc-a3ab-ec54b72e5cdc" shape=rect alt="Managing the Strategy Table" coords=41,46,102,51 style="auto-update-caption: true"&gt;&lt;AREA href="a0a73005-9ffd-41d7-a23e-1d88d6de3dc4" shape=rect alt="Managing the Override Table" coords=46,63,103,64 style="auto-update-caption: true"&gt;&lt;AREA href="1dc7220f-17fb-4bfc-a3ab-ec54b72e5cdc" shape=rect alt="Managing the Strategy Table" coords=43,46,100,50 style="auto-update-caption: true"&gt;&lt;AREA href="a0a73005-9ffd-41d7-a23e-1d88d6de3dc4" shape=rect alt="Managing the Override Table" coords=39,59,102,64 style="auto-update-caption: true"&gt;&lt;AREA href="f8b6a287-3157-4a20-8090-5030f21ecef3" shape=rect alt="Layers Table" coords=40,74,89,80 style="auto-update-caption: true"&gt;&lt;/MAP&gt;&lt;/P&gt;
+&lt;DIV align=left&gt;&lt;/DIV&gt;
+&lt;UL&gt;
+&lt;LI&gt;The standard CabMaster Layers.qlt&amp;nbsp;Management page &lt;/LI&gt;&lt;/UL&gt;
+&lt;P align=center&gt;&lt;IMG style="HEIGHT: 378px; WIDTH: 303px" border=0 alt="" src="images/Layers Only Edit.png" width=408 height=491&gt;&lt;/P&gt;
+&lt;P align=center&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P align=left&gt;The&amp;nbsp;Strategy, Override and&amp;nbsp;Layer&amp;nbsp;Management page is launched only&amp;nbsp;if&amp;nbsp;the&amp;nbsp;"Use&amp;nbsp;Layer Strategies" option is&amp;nbsp;enabled through the&amp;nbsp;&lt;A href="6175fcce-e9f9-468e-8fd8-b160db52a8af"&gt;Registry Settings&lt;/A&gt;.&amp;nbsp;&lt;/P&gt;
+&lt;P align=center&gt;&lt;IMG border=0 alt="" src="images/Layer Management Option.png"&gt;&lt;/P&gt;
+&lt;DIV align=left&gt;&lt;/DIV&gt;
+&lt;P&gt;&lt;/P&gt;
+&lt;DIV align=left&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/DIV&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink Id="f9c54f7b-9e3b-4de7-a867-ee8f35c16203" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="20589938-846a-4ead-9910-9950a25bae70" BuildFlags="">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink Id="005c436d-898b-49a0-b987-b801579d1056" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="d419fdd5-1400-47e3-9466-7eb8f0819dc2" BuildFlags="">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink Id="c20045de-dfac-4475-a912-b985c685c33a" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="20d8252e-0c2f-4b7d-b4f7-55798c13913a" BuildFlags="">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink Id="d6014491-03cd-4b8e-a8fc-dc52e16dd84d" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="aba9fa78-6514-4a7c-b9ae-ff3cc4369897" BuildFlags="">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

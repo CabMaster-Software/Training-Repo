@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="20d8252e-0c2f-4b7d-b4f7-55798c13913a" Status="Complete" CreatedOn="2020-12-24T04:46:48.8727545Z" ModifiedOn="2021-05-19T22:54:54.2108253Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Layers Table" BuildFlags="">
+  <Title />
+  <ContentsTitle m="2021-01-08T08:19:23.8320542Z">Layers Table</ContentsTitle>
+  <Notes></Notes>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2021-01-08T02:00:13.378854Z">&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;innovasys:widget type="Collapsible Heading" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Layers.qlt&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;H2&gt;Location&lt;/H2&gt;
+&lt;P&gt;&amp;lt;TableFolder&amp;gt;\Machining\Layers\Layers.qlt&lt;/P&gt;
+&lt;H2&gt;Detail&lt;/H2&gt;
+&lt;P&gt;This table contains Layer Name calculation formulas for each commonly used layer.&amp;nbsp; This table has traditionally been used by&amp;nbsp;CabMaster to allow users to customise layer names.&lt;/P&gt;
+&lt;P&gt;However, if the registry setting DXTasXML=7, the application will now use the&amp;nbsp;Layer Names calculated from here are used by the application to lookup the 'Override' table.&lt;/P&gt;
+&lt;P&gt;The only notable difference to the default CabMaster Layers table (certainly for BiesseWorks®)&amp;nbsp;is that the 'Border' layer&amp;nbsp;is changed to 'Border1|Border2'.&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;It is anticipated that this table will rarely be edited.&amp;nbsp;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink Id="c19be7c4-4fe1-438e-9246-0400d76b120a" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="aba9fa78-6514-4a7c-b9ae-ff3cc4369897" BuildFlags="">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink Id="fc13564d-9ad9-4cd1-92c5-8f88d6d3c21b" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="f8b6a287-3157-4a20-8090-5030f21ecef3" BuildFlags="">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

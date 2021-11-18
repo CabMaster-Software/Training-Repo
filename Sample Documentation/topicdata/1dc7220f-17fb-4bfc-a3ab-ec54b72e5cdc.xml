@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1dc7220f-17fb-4bfc-a3ab-ec54b72e5cdc" Status="Complete" CreatedOn="2021-01-08T02:19:28.3497521Z" ModifiedOn="2021-05-19T22:53:02.6725094Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Managing Strategy Tables" BuildFlags="">
+  <Title m="2021-01-12T03:00:22.0741886Z">Managing Strategy Tables</Title>
+  <ContentsTitle m="2021-01-08T08:18:22.2445871Z">Strategy Management</ContentsTitle>
+  <Notes></Notes>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2021-04-22T01:49:08.2959561Z">&lt;H1&gt;Managing Strategies&lt;/H1&gt;
+&lt;DIV align=left&gt;The Strategy Table Management page has two modes ... 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Standard&lt;/STRONG&gt; : View and Modify existing Strategy Properties and View their Evaluation Formulas&lt;MAP name={5CAB59F3-5A6E-42D1-8851-58AF3AB096D1}&gt; &amp;nbsp;&amp;nbsp; &lt;/MAP&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/DIV&gt;
+&lt;P align=center&gt;&lt;IMG border=0 alt="" src="images/LayerStrategy-Std.png" useMap=#{7133ACC9-925B-4B94-A358-1699084188D8}&gt;&lt;MAP name={7133ACC9-925B-4B94-A358-1699084188D8}&gt; &lt;AREA href="a0a73005-9ffd-41d7-a23e-1d88d6de3dc4" shape=rect alt="Managing the Override Table" coords=41,60,101,65 style="auto-update-caption: true"&gt;&lt;AREA href="f8b6a287-3157-4a20-8090-5030f21ecef3" shape=rect alt="Managing the Layers Table" coords=38,73,89,81 style="auto-update-caption: true"&gt;&lt;/MAP&gt;&lt;/P&gt;
+&lt;DIV align=center&gt;&lt;/DIV&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Advanced&lt;/STRONG&gt; : View, Add, Delete&amp;nbsp;and Modify&amp;nbsp;Strategies, Strategy Properties and their Evaluation Formulas&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;
+&lt;P align=center&gt;&lt;IMG border=0 alt="" src="images/LayerStrategy-Adv.png" useMap=#{B602C34C-8C32-4E2A-985D-0C37ADC3E63E}&gt;&lt;MAP name={B602C34C-8C32-4E2A-985D-0C37ADC3E63E}&gt; &lt;AREA href="a0a73005-9ffd-41d7-a23e-1d88d6de3dc4" shape=rect alt="Managing the Override Table" coords=41,60,104,66 style="auto-update-caption: true"&gt;&lt;AREA href="f8b6a287-3157-4a20-8090-5030f21ecef3" shape=rect alt="Managing the Layers Table" coords=39,75,93,80 style="auto-update-caption: true"&gt;&lt;/MAP&gt;&lt;/P&gt;
+&lt;DIV align=left&gt;&amp;nbsp; &amp;nbsp; &lt;/DIV&gt;
+&lt;H3 align=left&gt;General Editing Notes&lt;/H3&gt;
+&lt;DIV align=center&gt;
+&lt;UL&gt;
+&lt;LI&gt;
+&lt;DIV align=left&gt;The Strategy Table&amp;nbsp;dropdown is populated by the names of tables currently in the folder &amp;lt;TableFolder&amp;gt;\Machining\Layers\Strategy\ &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV align=left&gt;The Strategy dropdown is populated from the rows in current&amp;nbsp;&lt;A href="20589938-846a-4ead-9910-9950a25bae70"&gt;Strategy Table&lt;/A&gt; &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV align=left&gt;The Properties available for&amp;nbsp;modification are those currently attributed to the chosen Strategy&amp;nbsp; &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV align=left&gt;The Tooltips on the Property Values display the Property's&amp;nbsp;Description (or,&amp;nbsp;if there is no Description then&amp;nbsp;the Property's Name)&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV align=left&gt;Although any number of Properties can be assigned to each Strategy, the editor is limited to the editing of the first 20 of each Strategy &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV align=left&gt;The 'Sample Output' substitutes any use of the CabMaster 'Component' properties 'Depth.x', 'StepType', 'Dim1', 'Dim2', 'DimCut1' and 'DimCut2' in the evaluation formula with&amp;nbsp;sample values.&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV align=left&gt;If any other CabMaster 'Component' property is included in the evaluation formula or the formula fails then the sample output will be "&amp;lt;sample unavailable&amp;gt;"&amp;nbsp;. &lt;/DIV&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/DIV&gt;
+&lt;DIV align=center&gt;&lt;/DIV&gt;
+&lt;H3 align=left&gt;Strategy Properties&lt;/H3&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;H4 align=left&gt;Modifying&lt;/H4&gt;
+&lt;P&gt;Available in &lt;STRONG&gt;Standard&lt;/STRONG&gt; and &lt;STRONG&gt;Advanced&lt;/STRONG&gt; mode:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/P&gt;
+&lt;DIV align=left&gt;
+&lt;OL&gt;
+&lt;LI&gt;
+&lt;DIV align=left&gt;Pick the relevant&amp;nbsp;&lt;A href="20589938-846a-4ead-9910-9950a25bae70"&gt;Strategy Table&lt;/A&gt; from the dropdown &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV align=left&gt;Pick the Strategy to modify from the dropdown &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV align=left&gt;Select the Property to update &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV align=left&gt;Adjust the Property's Value &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV align=left&gt;Adjust the Property's Description (displayed&amp;nbsp;as the Tooltop when editing the Value)&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV align=left&gt;Repeat steps&amp;nbsp;3 to&amp;nbsp;5 as necessary &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV align=left&gt;Press on the 'Save' button &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV align=left&gt;Confirm the modifications are to be saved &lt;/DIV&gt;&lt;/LI&gt;&lt;/OL&gt;&lt;/DIV&gt;
+&lt;DIV align=left&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Note : A series of Property updates can be reset by pressing the 'Reload' before saving. &lt;/DIV&gt;
+&lt;DIV align=left&gt;&lt;/DIV&gt;
+&lt;H3&gt;Adding&lt;/H3&gt;
+&lt;P&gt;Available in &lt;STRONG&gt;Advance&lt;/STRONG&gt; mode only:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pick the relevant&amp;nbsp;&lt;A href="20589938-846a-4ead-9910-9950a25bae70"&gt;Strategy Table&lt;/A&gt; from the dropdown&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Pick&amp;nbsp;the Strategy to modify from the dropdown 
+&lt;LI&gt;Key the name of the new Property 
+&lt;LI&gt;Press the 'Add' button 
+&lt;LI&gt;Confirm the addition 
+&lt;LI&gt;Edit the Property's Value 
+&lt;LI&gt;Edit the Property's Description (displayed&amp;nbsp;as the Tooltop when editing the Value)&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Repeat steps&amp;nbsp;3 to&amp;nbsp;7 as required 
+&lt;LI&gt;Press on the 'Save' button 
+&lt;LI&gt;
+&lt;DIV align=left&gt;Confirm the modifications are to be saved &lt;/DIV&gt;&lt;/LI&gt;&lt;/OL&gt;
+&lt;P align=left&gt;Note : A series of Property additions can be reset by pressing the 'Reload' before saving.&lt;/P&gt;
+&lt;P align=left&gt;&lt;/P&gt;
+&lt;H3 align=left&gt;Removing&lt;/H3&gt;
+&lt;P&gt;Available in &lt;STRONG&gt;Advance&lt;/STRONG&gt; mode only:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pick the relevant&amp;nbsp;&lt;A href="20589938-846a-4ead-9910-9950a25bae70"&gt;Strategy Table&lt;/A&gt; from the dropdown 
+&lt;LI&gt;Pick&amp;nbsp;the Strategy to modify from the dropdown 
+&lt;LI&gt;Select the Property to remove 
+&lt;LI&gt;Press the 'Remove' button to the right of the&amp;nbsp;Property name 
+&lt;LI&gt;Confirm the Removal 
+&lt;LI&gt;Repeat steps 3 to 5 as required 
+&lt;LI&gt;
+&lt;DIV align=left&gt;Press on the 'Save' button&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV align=left&gt;Confirm the modifications are o be saved &lt;/DIV&gt;&lt;/LI&gt;&lt;/OL&gt;
+&lt;P align=left&gt;Note : A series of Property removals can be reset by pressing the 'Reload' before saving.&lt;/P&gt;&lt;/BLOCKQUOTE&gt;
+&lt;H3&gt;Strategies&lt;/H3&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;H4&gt;Adding&lt;/H4&gt;
+&lt;P style="MARGIN-RIGHT: 0px" dir=ltr&gt;Available in &lt;STRONG&gt;Advance&lt;/STRONG&gt; mode only:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pick the relevant&amp;nbsp;&lt;A href="20589938-846a-4ead-9910-9950a25bae70"&gt;Strategy Table&lt;/A&gt; from the dropdown 
+&lt;LI&gt;Key in a Strategy name that does not already exist 
+&lt;LI&gt;Confirm the Strategy is to be added 
+&lt;LI&gt;Add any required Properties (see &lt;EM&gt;Adding Strategy Properties&lt;/EM&gt; above) 
+&lt;LI&gt;Enter an Evaluation formula 
+&lt;LI&gt;
+&lt;DIV align=left&gt;Press on the 'Save' button &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV align=left&gt;Confirm the modifications are to be saved &lt;/DIV&gt;&lt;/LI&gt;&lt;/OL&gt;
+&lt;H3 align=left&gt;Removing&lt;/H3&gt;
+&lt;P&gt;Available in &lt;STRONG&gt;Advance&lt;/STRONG&gt; mode only:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pick the relevant&amp;nbsp;&lt;A href="20589938-846a-4ead-9910-9950a25bae70"&gt;Strategy Table&lt;/A&gt; from the dropdown 
+&lt;LI&gt;Pick&amp;nbsp;the Strategy to remove from the dropdown 
+&lt;LI&gt;Press the 'Remove' button to the right of the chosen Strategy 
+&lt;LI&gt;Confirm the removal &lt;/LI&gt;&lt;/OL&gt;
+&lt;H3&gt;Editing&amp;nbsp;Evaluation Formulas&lt;/H3&gt;
+&lt;P&gt;Available in &lt;STRONG&gt;Advance&lt;/STRONG&gt; mode only:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pick the relevant&amp;nbsp;&lt;A href="20589938-846a-4ead-9910-9950a25bae70"&gt;Strategy Table&lt;/A&gt; from the dropdown 
+&lt;LI&gt;Pick&amp;nbsp;the Strategy to modify from the dropdown 
+&lt;LI&gt;Press the 'Edit Formula' button 
+&lt;LI&gt;Edit the Evaluation formula as required 
+&lt;LI&gt;Press on the 'Save' button 
+&lt;LI&gt;
+&lt;DIV align=left&gt;Confirm the modifications are to be saved &lt;/DIV&gt;&lt;/LI&gt;&lt;/OL&gt;
+&lt;P align=left&gt;Note : The Evaluation Formula can be reset by pressing the 'Reload' before saving.&lt;/P&gt;&lt;/BLOCKQUOTE&gt;
+&lt;H2&gt;&amp;nbsp;&lt;/H2&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink Id="34a01ea6-2cdc-44fc-a346-bb62d49ec126" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="20589938-846a-4ead-9910-9950a25bae70" BuildFlags="">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink Id="6d30e25c-b8cc-4d8e-9f58-9e1f9b0e6533" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="aba9fa78-6514-4a7c-b9ae-ff3cc4369897" BuildFlags="">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

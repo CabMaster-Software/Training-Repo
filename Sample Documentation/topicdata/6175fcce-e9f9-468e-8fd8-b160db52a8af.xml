@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="6175fcce-e9f9-468e-8fd8-b160db52a8af" Status="Complete" CreatedOn="2020-12-24T03:45:45.6398695Z" ModifiedOn="2021-04-22T01:49:08.2839884Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Introduction" BuildFlags="">
+  <Title />
+  <ContentsTitle m="2021-01-05T23:25:34.9580132Z">Introduction</ContentsTitle>
+  <Notes></Notes>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2021-04-22T01:49:08.2839884Z">&lt;H1&gt;Overview&lt;/H1&gt;
+&lt;P&gt;The DXF layer names required by some nesting/machining systems (eg Biesseworks®) are more than just a name.&amp;nbsp; They are a&amp;nbsp;string that&amp;nbsp;defines&amp;nbsp;the required&amp;nbsp;machining 'strategy', containing information such as the tool to use, whether to route or drill, the depth&amp;nbsp;etc.&lt;/P&gt;
+&lt;P&gt;To date CabMaster has used formulas in the 'Layers' table to define these strategy strings.&amp;nbsp; However, not all layer names are mapped via the&amp;nbsp;Layers table.&amp;nbsp; For example, some come from hardware tables, custom machining tables or are keyed in by the user through the application's&amp;nbsp;machining editor.&amp;nbsp; To overcome this,&amp;nbsp;the translation into the more complex strategies for all layers&amp;nbsp;now occurs as the application exports the machining&amp;nbsp;DXFs.&lt;/P&gt;
+&lt;H1&gt;Process&lt;/H1&gt;
+&lt;P&gt;Each DXF file is created by processing&amp;nbsp;a component's machinesteps one at a time.&amp;nbsp; As each is processed the application uses an 'Override' table to map which 'Strategy' to use for each named Layer (several Layers could share the same Strategy).&amp;nbsp; This 'Override' table also includes a 'Default' which is used for unrecognised layer names.&lt;/P&gt;
+&lt;P&gt;The Strategies themselves are defined in&amp;nbsp;a separately selected user configurable 'Strategy' table. &amp;nbsp;This&amp;nbsp;contains a formula to&amp;nbsp;calculate the strategy string along with&amp;nbsp;any associated properties (e.g. tool name, operation type etc).&lt;/P&gt;
+&lt;P&gt;The&amp;nbsp;evaluation of this occurs in the&amp;nbsp;context of the machinestep and the 'Override' table only used when certain registry settings are in place.&lt;/P&gt;
+&lt;H2&gt;Required Registry Settings&lt;/H2&gt;
+&lt;P&gt;To trigger the use of the 'Override' table the following registry settings are required:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;DXTasXML = 7 &lt;/LI&gt;&lt;/UL&gt;
+&lt;UL&gt;
+&lt;LI&gt;DXTasXMLLayerOverride =&amp;nbsp;a valid 'Override'&amp;nbsp;table name&amp;nbsp;and path (relative to the&amp;nbsp;'Table\' folder) eg. Machining\Layers\LayerOverride.qlt &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks />
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

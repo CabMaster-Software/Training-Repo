@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="f8b6a287-3157-4a20-8090-5030f21ecef3" Status="Complete" CreatedOn="2021-01-08T02:20:29.7739305Z" ModifiedOn="2021-05-19T22:53:18.8051608Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Managing the Layers Table" BuildFlags="">
+  <Title />
+  <ContentsTitle m="2021-01-08T08:18:58.8326092Z">Layer Management</ContentsTitle>
+  <Notes></Notes>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2021-05-19T04:59:10.8234822Z">&lt;H1&gt;Managing Layers&lt;/H1&gt;
+&lt;P&gt;The&amp;nbsp;Layer Table Management page has two modes ...&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Standard&lt;/STRONG&gt; : View existing Layer Properties &lt;/LI&gt;&lt;/UL&gt;
+&lt;P align=center&gt;&lt;IMG style="HEIGHT: 810px; WIDTH: 765px" border=0 alt="" src="images/Layer-Std.png" width=899 height=852 useMap=#{6185D7B8-281D-4D46-9F20-3A9AA043537A}&gt;&lt;MAP name={6185D7B8-281D-4D46-9F20-3A9AA043537A}&gt; &lt;AREA href="1dc7220f-17fb-4bfc-a3ab-ec54b72e5cdc" shape=rect alt="Managing Strategy Tables" coords=38,52,114,62 style="auto-update-caption: true"&gt;&lt;AREA href="a0a73005-9ffd-41d7-a23e-1d88d6de3dc4" shape=rect alt="Managing the Override Table" coords=39,70,113,82 style="auto-update-caption: true"&gt;&lt;/MAP&gt;&lt;/P&gt;
+&lt;DIV align=left&gt;&lt;/DIV&gt;
+&lt;UL&gt;
+&lt;LI&gt;Advanced: View and Modify&amp;nbsp;Layer Properties &lt;/LI&gt;&lt;/UL&gt;
+&lt;P align=center&gt;&lt;IMG style="HEIGHT: 809px; WIDTH: 763px" border=0 alt="" src="images/Layer-Adv.png" width=901 height=851 useMap=#{D02DCF1E-ADFD-461D-B3CA-F3B9976FF54F}&gt;&lt;MAP name={D02DCF1E-ADFD-461D-B3CA-F3B9976FF54F}&gt; &lt;AREA href="1dc7220f-17fb-4bfc-a3ab-ec54b72e5cdc" shape=rect alt="Managing Strategy Tables" coords=34,51,112,63 style="auto-update-caption: true"&gt;&lt;AREA href="a0a73005-9ffd-41d7-a23e-1d88d6de3dc4" shape=rect alt="Managing the Override Table" coords=41,70,112,81 style="auto-update-caption: true"&gt;&lt;/MAP&gt;&lt;/P&gt;
+&lt;DIV align=left&gt;&amp;nbsp;&lt;/DIV&gt;
+&lt;H3&gt;Updating Layer Settings&lt;/H3&gt;
+&lt;H4&gt;Modifying&lt;/H4&gt;
+&lt;P&gt;Available in &lt;STRONG&gt;Advance&lt;/STRONG&gt; mode only:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pick the relevant Layer name from the dropdown (populated from the&amp;nbsp;&lt;A href="20d8252e-0c2f-4b7d-b4f7-55798c13913a"&gt;Layers Table&lt;/A&gt;) 
+&lt;LI&gt;Update the properties as necessary 
+&lt;LI&gt;Press on the 'Save' button 
+&lt;LI&gt;
+&lt;DIV align=left&gt;Confirm the modifications are to be saved&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/DIV&gt;&lt;/LI&gt;&lt;/OL&gt;
+&lt;P align=left&gt;Note : The modification can be reset by pressing the 'Reload' before saving.&lt;/P&gt;
+&lt;H4&gt;Adding&lt;/H4&gt;
+&lt;P style="MARGIN-RIGHT: 0px" dir=ltr&gt;Available in &lt;STRONG&gt;Advance&lt;/STRONG&gt; mode only:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;Key in a Layer name that does not already exist 
+&lt;LI&gt;Confirm the Layer is to be added 
+&lt;LI&gt;Update the properties as necessary 
+&lt;LI&gt;
+&lt;DIV align=left&gt;Press on the 'Save' button &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV align=left&gt;Confirm the modifications are to be saved &lt;/DIV&gt;&lt;/LI&gt;&lt;/OL&gt;
+&lt;H3 align=left&gt;Removing&lt;/H3&gt;
+&lt;P&gt;Available in &lt;STRONG&gt;Advance&lt;/STRONG&gt; mode only:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pick&amp;nbsp;the Layer to remove from the dropdown 
+&lt;LI&gt;Press the 'Remove' button to the right of the chosen Layer 
+&lt;LI&gt;Confirm the removal &lt;/LI&gt;&lt;/OL&gt;
+&lt;P align=left&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink Id="ed7e7120-7161-4d6f-9de7-3dc2eefd04ff" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="20d8252e-0c2f-4b7d-b4f7-55798c13913a" BuildFlags="">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink Id="c3a65129-472c-4938-8962-78dafcc6569f" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="aba9fa78-6514-4a7c-b9ae-ff3cc4369897" BuildFlags="">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>
